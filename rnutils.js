@@ -20,6 +20,12 @@ const RnUtils = {
     return input && input.toString()
       .replace(DIGIT_PATTERN, (m) => m.replace(MILLI_PATTERN, ','));
   },
+  /*
+  * 换行
+  */
+  newLine: function() {
+    return `\n`;
+  },
   isOnCall: function (callback) {
     RCTUtilsManager.isOnCall(function (response) {
       if (callback) {
