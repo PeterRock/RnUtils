@@ -1,0 +1,24 @@
+{
+  "name": "react-native-utils",
+  "version": "0.0.1",
+  "description": "A Native Utility module to wrap a set of simple methods.",
+  "main": "rnutils.js",
+  "scripts": {
+    "start": "node_modules/react-native/packager/packager.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PeterRock/RnUtils.git"
+  },
+  "keywords": [
+  ],
+  "author": "Peter Rock",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PeterRock/RnUtils/issues"
+  },
+  "homepage": "https://github.com/PeterRock/RnUtils",
+  "devDependencies": {
+    "react-native": "^0.26.3"
+  }
+}
